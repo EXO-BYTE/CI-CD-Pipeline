@@ -4,7 +4,7 @@ from my_pipeline.my_pipeline_stack import MyPipelineStack
 
 app = cdk.App()
 MyPipelineStack(app, "MyPipelineStack",
-    env=cdk.Environment(account="231657033829", region="us-east-1")
+    env=cdk.Environment(account="429005187143", region="us-east-1")
 )
 
 app.synth()
